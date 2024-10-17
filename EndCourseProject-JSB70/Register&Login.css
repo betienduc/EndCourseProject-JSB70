@@ -1,0 +1,107 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.card{
+    margin-top: 20vh;
+    font-size: 2rem;
+    font-family: SUSE;
+    background-color:#1c1f2b;
+    color: white;
+    padding: 2rem;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.vertical-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+.horizontal-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:darkblue;
+    border-radius: 10px;
+}
+input::placeholder{
+    color:rgba(119, 136, 153, 0.568);
+    font-weight: 200;
+}
+input{
+    font-size: 1.3rem;
+    font-family: SUSE;
+    background-color: #1c1f2b;
+    color: white;
+    border: none;
+    border-bottom: 1px green solid;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+input:focus{    
+    outline: none;
+    border-bottom: 1px greenyellow solid;
+}
+.submit-button{
+    font-size: 1.3rem;
+    font-family: SUSE;
+    background-color: #1c1f2b;
+    color: white;
+    padding: 0.5rem;
+    padding-inline: 4rem;
+    transition: transform 0.3s;
+}
+.submit-button:hover{
+    transform: translateY(-4px);
+    border: 1px greenyellow solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    font-size: 1.3rem;
+    font-family: SUSE;
+    font-weight: 200;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.user-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h2{
+    font-size: 3.5rem;
+    font-family: SUSE;
+    font-weight: 300;
+    color:deeppink
+}
+#IsRobot{
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    width: 32px;
+    height: 32px;
+    transition: all 0.3s;
+}
+
+#ruarobot{
+    position: relative;
+    left: 20px;
+    top: -13px;
+}
